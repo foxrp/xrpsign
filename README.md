@@ -11,7 +11,7 @@ npm install xrpsign
 
 ## Usage
 
-```
+```js
 const sign = require('xrpsign');
 
 // tx can be an object or the JSON equivalent.
