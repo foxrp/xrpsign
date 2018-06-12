@@ -1,6 +1,6 @@
 {
   "name": "xrpsign",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple package for signing XRP transactions.",
   "repository": "https://github.com/organizations/foxrp/xrpsign",
   "main": "cli.js",
