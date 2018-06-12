@@ -2,6 +2,7 @@
   "name": "xrpsign",
   "version": "1.0.1",
   "description": "A simple package for signing XRP transactions.",
+  "repository": "https://github.com/organizations/foxrp/xrpsign",
   "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
