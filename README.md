@@ -15,7 +15,7 @@ npm install xrpsign
 const sign = require('xrpsign');
 
 // tx can be an object or the JSON equivalent.
-let tx = {
+const tx = {
     TransactionType: 'Payment',
     Account: 'rQBnNY5w5cALHbMaue2VefSzuBfxafwqp9',
     Fee : '12',
@@ -24,8 +24,10 @@ let tx = {
     Sequence: 3
 };
 
+const secret = 'sxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+
 // signedTx is now a transaction object with the signed data.
-let signedTx = sign(tx);
+let signedTx = sign(tx, secret);
 ```
 
 ## Acknowledgements
