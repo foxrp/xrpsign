@@ -1,0 +1,17 @@
+{
+  "name": "xrpsign",
+  "version": "1.0.0",
+  "description": "A simple package for signing XRP transactions.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ripple-binary-codec": "^0.1.13",
+    "ripple-hashes": "^0.3.1",
+    "ripple-keypairs": "^0.10.1"
+
+  }
+}
