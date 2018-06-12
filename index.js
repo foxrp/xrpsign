@@ -18,6 +18,7 @@ const sign = (tx, secret) => {
     txId = RippleHashes.computeBinaryTransactionHash(txBlob);
 
     return {
+        tx: tx,
         tx_blob: txBlob,
         tx_id: txId
     };
