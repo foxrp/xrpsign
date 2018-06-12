@@ -22,7 +22,7 @@ let tx = {
     Destination: 'rnQ1WgToG2RL9Fjmofif9ixYVgJTi6BLas',
     Amount: '1000000',
     Sequence: 3
-}
+};
 
 // signedTx is now a transaction object with the signed data.
 let signedTx = sign(tx);
